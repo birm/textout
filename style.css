@@ -46,10 +46,15 @@ body {
 /* textout specific */
 
 /* Versals */
-p:first-letter {
-  font-size: 4em;
-  float: left;
-  display: in-line;
+#contentarea p:first-letter {
+  color: #903;
+  float: top;
+  font-family: Georgia;
+  font-size: 30px;
+  line-height: 20px;
+  padding-top: 4px;
+  padding-right: 1px;
+  padding-left: 3px;
   text-transform: uppercase;
 }
 /* Identity bar color */
