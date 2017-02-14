@@ -1,16 +1,18 @@
+/* layout tool apps - common */
 html {
   min-width: 150px;
   max-width: 500px;
 }
 
 body {
-  background-color: ;
+  background-color: #F9F6EF;
 }
 
 #topbar {
   position: fixed;
   height: 7%;
   min-height: 100px;
+  background-color: #090C02;
 }
 
 #bottombar {
@@ -19,6 +21,20 @@ body {
   min-height: 100px;
 }
 
-#gridarea {
+#contentarea {
   margin-top: 10% 3% 10% 3%;
+}
+
+/* textout specific */
+
+/* Versals */
+p:first-letter {
+  font-size: 4em;
+  float: left;
+  display: in-line;
+  text-transform: uppercase;
+}
+/* Identity bar color */
+#bottombar {
+  background-color: #5EEB5B;
 }
