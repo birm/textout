@@ -1,0 +1,27 @@
+{
+  "name": "textout",
+  "version": "1.0.0",
+  "description": "text layout helper tool",
+  "main": "textout.js",
+  "scripts": {
+    "test": "test_textout.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birm/textout.git"
+  },
+  "keywords": [
+    "text",
+    "design",
+    "layout",
+    "graphic",
+    "ui",
+    "ux"
+  ],
+  "author": "Ryan Birmingham",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "bugs": {
+    "url": "https://github.com/birm/textout/issues"
+  },
+  "homepage": "https://github.com/birm/textout#readme"
+}
