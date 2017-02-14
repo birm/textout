@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/birm/textout/issues"
   },
-  "homepage": "https://github.com/birm/textout#readme"
+  "homepage": "https://github.com/birm/textout#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "angular": "^1.6.2"
+  }
 }
