@@ -1,0 +1,11 @@
+<!--A sample textout save object-->
+<textout>
+  <title>The title</title>
+  <font>serif|sans|kerned|kerned-sans|monospace</font>
+  <versal>
+    <style>no|up|down</style>
+    <size>#</size>
+  <versal>
+  <deadzone>yes|no</deadzone>
+  <margin>#</margin>
+</textout>
