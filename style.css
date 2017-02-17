@@ -1,4 +1,4 @@
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 /* layout tool apps - common */
 /*html {
   min-width: 150px;
@@ -81,5 +81,4 @@ input[type=checkbox] + label:before {
 }
 
 input[type=checkbox] + label:before { content: "\f031"; color: grey;} /* unchecked icon */
-
 input[type=checkbox]:checked + label:before { content: "\f031"; color: white;} /* checked icon */

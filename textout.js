@@ -35,11 +35,10 @@
 
      /** Update serifs. */
      static updateserifs(){
-         console.log(document.getElementById("serifs").checked)
         if (document.getElementById("serifs").checked){
-            document.getElementById('contentarea').setAttribute('style','font-family: georgia');
+            document.getElementById('textarea').setAttribute('style','font-family: georgia');
         }else{
-            document.getElementById('contentarea').setAttribute('style','font-family: arial');
+            document.getElementById('textarea').setAttribute('style','font-family: arial');
         }
     }
 }
