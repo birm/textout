@@ -1,3 +1,4 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /* layout tool apps - common */
 /*html {
   min-width: 150px;
@@ -48,7 +49,7 @@ body {
 
 .input_bars{
   border:1px solid #cccccc;
-  width: 25%;
+  width: 15%;
   height: 10%;
 }
 
@@ -57,9 +58,8 @@ body {
 /* Versals */
 #contentarea p:first-letter {
   color: #903;
-  float: top;
-  font-family: Georgia;
-  font-size: 30px;
+  float: left;
+  font-size: 250%;
   line-height: 20px;
   padding-top: 4px;
   padding-right: 1px;
@@ -70,3 +70,16 @@ body {
 #bottombar {
   background-color: #5EEB5B;
 }
+
+/* Serif Checkbox */
+
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f031"; color: grey;} /* unchecked icon */
+
+input[type=checkbox]:checked + label:before { content: "\f031"; color: white;} /* checked icon */

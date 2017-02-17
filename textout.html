@@ -8,8 +8,9 @@
     <!--The toolbar-->
     <div id="topbar">
         <div class="container">
-            <label style="color:white;">Size: <input type="range" class="input_bars" name="grid_num_x" id="grid_num_x" min="1" max="15" value="5" onchange=""></label>
-            <label style="color:white;">  Margins: <input type="range" class="input_bars" name="margin" id="margin" min="0" max="10" value="5" onchange=""></label>
+            <label style="color:white;">Size: <input type="range" class="input_bars" name="fontsize" id="fontsize" min="12" max="40" value="12" oninput="textout.updatetext()"></label>
+            <label style="color:white;">  Margins: <input type="range" class="input_bars" name="marginsize" id="marginsize" min="0" max="50" value="10" oninput="textout.updatemargin()"></label>
+            <input type="checkbox" name="serifs" id="serifs" checked onclick="textout.updateserifs()"><label for="serifs"> </label>
         </div>
     </div>
 </head>
@@ -18,9 +19,9 @@
     <!--The grid area-->
     <div id="contentarea">
         <div class="container">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel posuere odio. Proin non velit ut nunc vehicula mattis. Donec urna risus, tincidunt suscipit mi sed, laoreet pellentesque sapien. Aliquam venenatis vitae libero a ultricies. Phasellus a blandit ex, non fermentum elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nisl erat, eu euismod ligula luctus iaculis. Praesent finibus ut lacus gravida blandit.<p>
+          <p class="content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel posuere odio. Proin non velit ut nunc vehicula mattis. Donec urna risus, tincidunt suscipit mi sed, laoreet pellentesque sapien. Aliquam venenatis vitae libero a ultricies. Phasellus a blandit ex, non fermentum elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis nisl erat, eu euismod ligula luctus iaculis. Praesent finibus ut lacus gravida blandit.<p>
 
-          <p>Sed tincidunt vestibulum urna in placerat. Integer orci mauris, placerat vitae laoreet porttitor, pharetra at nunc. Aliquam imperdiet magna urna, eget tempor justo gravida quis. Vivamus malesuada dolor erat, a placerat ipsum gravida id. Cras elementum commodo nibh ut interdum. Integer vehicula laoreet neque, et blandit elit ultricies at. Nam eget fringilla mauris. Phasellus rhoncus nulla eget auctor luctus. Quisque ultricies leo nec mauris hendrerit vehicula. Ut neque nulla, hendrerit vel metus vel, ultrices fringilla libero.</p>
+          <p class="content_text">Sed tincidunt vestibulum urna in placerat. Integer orci mauris, placerat vitae laoreet porttitor, pharetra at nunc. Aliquam imperdiet magna urna, eget tempor justo gravida quis. Vivamus malesuada dolor erat, a placerat ipsum gravida id. Cras elementum commodo nibh ut interdum. Integer vehicula laoreet neque, et blandit elit ultricies at. Nam eget fringilla mauris. Phasellus rhoncus nulla eget auctor luctus. Quisque ultricies leo nec mauris hendrerit vehicula. Ut neque nulla, hendrerit vel metus vel, ultrices fringilla libero.</p>
         </div>
     </div>
 </body>
