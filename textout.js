@@ -24,10 +24,8 @@
      /** Update margin with slider. */
      static updatemargin(){
          document.getElementById('contentarea')
-         console.log("w")
          var ptags = document.getElementsByClassName("content_text");
          for (var i = 0; i < ptags.length; i++ ){
-             console.log( document.getElementById('marginsize').value);
              var ptag = ptags[i];
              ptag.setAttribute('style', 'margin: ' + document.getElementById('marginsize').value + "px;" );
          }

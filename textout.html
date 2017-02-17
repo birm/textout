@@ -3,15 +3,15 @@
 <head>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="textout.js"></script>
 
     <!--The toolbar-->
     <div id="topbar">
         <div class="container">
             <label style="color:white;"><i class="fa fa-text-height"></i> <input type="range" class="input_bars" name="fontsize" id="fontsize" min="12" max="40" value="12" oninput="textout.updatetext()"></label>
-            <label style="color:white;">  <i class="fa fa-reorder"></i> <input type="range" class="input_bars" name="marginsize" id="marginsize" min="0" max="50" value="10" oninput="textout.updatemargin()"></label>
-            <input type="checkbox" name="serifs" id="serifs" checked onclick="textout.updateserifs()"><label for="serifs"> </label>
+            &nbsp;&nbsp;&nbsp;<label style="color:white;"><i class="fa fa-reorder"></i> <input type="range" class="input_bars" name="marginsize" id="marginsize" min="0" max="50" value="10" oninput="textout.updatemargin()"></label>
+            &nbsp;&nbsp;<input type="checkbox" name="serifs" id="serifs" checked onclick="textout.updateserifs()"><label for="serifs"> </label>
         </div>
     </div>
 </head>
